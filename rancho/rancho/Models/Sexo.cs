@@ -7,5 +7,7 @@ namespace rancho.Models
 {
     public class Sexo
     {
+        public int SexoId { get; set; }
+        public string Detalle { get; set; }
     }
 }
